@@ -4,8 +4,9 @@
 
 .topbar {
 	background: gold;
-	padding: 30px;
 	width: 100%;
+	padding-top: 15px;
+	padding-bottom: 15px;
 }
 
 .row *{
@@ -14,9 +15,18 @@
 	margin: 0 auto;
 }
 
+.topbar .row:first-of-type{
+	margin-bottom: 0px;
+}
+
 .card{
 	border: 2px solid lightgrey;
 	padding: 0px;
+	margin-bottom: 30px;
+}
+
+.cardimg{
+	text-align: center;
 }
 
 .info{
@@ -25,4 +35,14 @@
 
 main{
 	margin-top: 30px;
+}
+
+.row{
+	margin-bottom: 30px;
+}
+
+@media only screen and (min-width: 640px){
+	.card {
+		margin-bottom: 0px;
+	}
 }
